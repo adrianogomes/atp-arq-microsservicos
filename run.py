@@ -47,7 +47,7 @@ print('\nConsultando contato id_contato = 2')
 req = requests.get(BASE_URL + '/consultar/2')
 print (req.json())
 
-print('\nListando todos os contatos')
 # Listar
+print('\nListando todos os contatos')
 req = requests.get(BASE_URL + '/listar')
 print (req.json())
