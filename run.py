@@ -1,7 +1,7 @@
 import requests
 from modelo import CategoriaContato, TipoTelefone
 
-BASE_URL = 'http://127.0.0.1:8000'
+BASE_URL = 'http://127.0.0.1:8001'
 
 print(f"Iniciando script de consumo da API da aplicação {BASE_URL} \n\n")
 
