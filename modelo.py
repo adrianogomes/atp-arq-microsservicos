@@ -14,3 +14,8 @@ class CategoriaContato(StrEnum):
 class Telefone(BaseModel):
     numero: int
     tipo  : TipoTelefone
+
+class Contato(BaseModel):
+    nome: str
+    telefones: list[Telefone]
+    categoria: CategoriaContato
